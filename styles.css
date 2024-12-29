@@ -1,0 +1,171 @@
+body{
+    background-color:rgb(150,199,287);
+    margin:0;
+}
+
+.complement{
+    color: coral;
+}
+
+header{
+    background-color: rgb(100,149,237);
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    padding:20px;
+    padding-bottom: 10px;
+    width:94%;
+    height:10%;
+    min-height:50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+h1{
+    display:inline-block;
+    color:white;
+    text-align:left;
+    font-family:"Georgia",sans-serif;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin:center left;
+    height:90%;
+}
+
+h1 a{
+    color:white;
+    text-decoration: none;
+}
+.port{
+    display:inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin:center right;
+    height:90%;
+}
+
+.port h3{
+    color:white;
+    font-family:"Georgia",sans-serif;
+    font-weight: bold;
+    height:40%;
+    margin: 1px auto 10px;
+}
+.port p{
+    color:white;
+    font-family:"Georgia",sans-serif;
+    font-size: small;
+    height:60%; 
+    margin: 1px auto 10px;
+}
+
+.main-body{
+    display:block;
+    padding:20px;
+}
+
+.row-one{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    padding:10px 20px;
+    padding-top: 0;
+}
+
+.pic img{
+    width:300px;
+    object-fit:cover;
+    border-radius: 30px;
+    min-height:300px;
+    display:inline-block;
+    padding:20px;
+}
+
+.writeup{
+    display:inline-block;
+    width:800px;
+    padding: 10px;
+    color:rgb(7, 24, 56);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:20px;
+    height:98%;
+}
+
+/*.row-two{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    padding:10px 20px;
+    justify-content: space-evenly;
+    margin: 20px 80px;
+    border: 4px solid rgb(31, 53, 93);
+    border-radius: 10px;
+    
+}*/
+
+.skills{
+    display:inline-block;
+    width:450px;
+    color:rgb(7, 24, 56);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:0 10px;
+    height:90%;
+}
+
+.skills,.hobbies b{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.hobbies{
+    display:inline-block;
+    width:450px;
+    padding: 0 10px;
+    color:rgb(7, 24, 56);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height:90%;
+}
+
+hr{
+    color:rgb(100,149,237);
+    margin:10px;
+    width:98%;
+}
+
+footer p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+footer a{
+    color:rgb(8, 20, 42);
+    text-decoration: none;
+}
+
+.row-two{
+    width:100%;
+    display:block;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    padding:20px 20px;
+    margin:0;
+    border:0;
+    justify-content: space-evenly;
+    background-color: rgb(23, 53, 107);
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px auto;
+    justify-content: space-evenly;
+}
+
+.link{
+    margin: 10px 20px 10px 20px;
+    background-color:rgb(100,149,237);
+    padding: 0 10px;
+    border-radius: 3px;
+}
