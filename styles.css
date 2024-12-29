@@ -92,6 +92,8 @@ h1 a{
     height:98%;
 }
 
+li p{
+    color:rgb(14, 31, 63)
 /*.row-two{
     display:flex;
     flex-wrap:wrap;
