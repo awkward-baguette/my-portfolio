@@ -1,0 +1,136 @@
+
+.container{
+    position: sticky;
+    top:50px;
+    width:100%;
+    height:100%;
+    margin:0;
+    margin-bottom: 0;
+ }
+
+#lib{
+    width:100%;
+	height:100%;
+	object-fit:cover;
+    margin:0;
+    justify-self: center;
+}
+
+body {
+     background-color: #4275b3;
+	 margin: 0;
+     margin-bottom: 0;
+}
+
+a{
+     color: #EDEAE8; 
+	 text-decoration: none;
+}
+
+button{
+    background-color: #0d552b6e;
+    color:#EDEAE8;
+    border:none;
+    border-radius:3px;
+    padding:8px;
+}
+
+.header-part{
+	background-color:#4275b3 ;
+	width:100%;
+	box-shadow: 0 10px 10px 3px rgba(0,0,0,0.5);
+	position:fixed;
+	top:0;
+}
+.the-header{
+	 margin: 0;
+	 border: 0;
+	 padding: 0;
+	 display: flex;
+	 flex-wrap: wrap;
+	 flex-direction: row; 
+	 padding-bottom: 15px;
+	 justify-content: space-evenly;
+	 height:30%;
+}
+.name-block, .nav-block{
+	display:inline-block;
+	margin:auto 30px;
+}
+.name-block{
+	 width:45%;
+	 max-width: 400px;
+	 margin-left:0;
+	 justify-self: flex-start;
+}
+
+.port{
+    margin:10px 0;
+}
+
+.text{
+    margin:10px 0;
+}
+
+.name-div{
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+	 justify-content:left;
+	 width:98%;
+	 margin-left: 0px;
+	 margin-top: 0px;
+	 padding-left: 0px;
+	 padding-top: 0px; 
+}
+
+.nav-block{
+	width:45%;
+	max-width:800px;
+	margin-right:0;	
+	justify-self:flex-end;
+}
+
+.nav-bar{
+	 display: flex;
+     flex-direction: column;
+	 flex-wrap: nowrap;
+	 justify-content: space-evenly;
+	 justify-items: center;
+	 width:100%;	
+     padding:10px; 
+}
+
+.nav-links{
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    width:90%;
+}
+
+.nav-buttons{
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: flex-end;
+    width:90%;
+}
+
+.element{
+	display:inline block;
+	padding:10px;
+}
+
+header font{
+    color: #EDEAE8;
+}
+
+.text-block {
+    position:relative;
+    bottom: 100px;
+    left:20px;
+    color:#EDEAE8;
+    background-color: rgba(0,0,0,0);
+    padding-left: 20px;
+}
