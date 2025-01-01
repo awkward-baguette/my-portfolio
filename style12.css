@@ -140,7 +140,7 @@ header font{
     padding-left: 20px;
 }
 
-@media (max-width:420px){
+@media (max-width:450px){
 	font{
 		text-align:left;
 	}
