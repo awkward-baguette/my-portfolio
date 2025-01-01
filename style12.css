@@ -21,6 +21,7 @@ body {
      background-color: #4275b3;
 	 margin: 0;
      margin-bottom: 0;
+	overflow-x:hidden;
 }
 
 a{
