@@ -36,6 +36,10 @@ button{
     padding:8px;
 }
 
+button:hover{
+	background-color: #0d552bac;
+}
+
 .header-part{
 	background-color:#4275b3 ;
 	width:100%;
